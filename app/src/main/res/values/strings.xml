@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Memory assistant</string>
+    <string name="about_hint1">这里你们自己写介绍</string>
+    <string name="not_account">Do not have an account yet? sign up </string>
+    <string name="login">Sign in</string>
+    <string name="input_pwd">Please enter password</string>
+    <string name="input_name">Please enter username</string>
+    <string name="category">Category</string>
+    <string name="input_category">Please enter a category name</string>
+    <string name="remember_password">Remember password</string>
+    <string name="sign_in">Sign in</string>
+</resources>

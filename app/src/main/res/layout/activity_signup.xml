@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f2f3f5"
+              android:orientation="vertical" >
+
+
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="56dp"
+    android:background="@color/colorPrimary">
+        <ImageView
+                android:id="@+id/iv_finish"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:src="@drawable/nav_leftbai"
+        android:layout_centerVertical="true"
+        android:padding="16dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+    </RelativeLayout>
+    <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:text="Username"/>
+        <EditText
+                android:id="@+id/et_write_name"
+                android:layout_marginLeft="16dp"
+                android:gravity="end|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_name"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:paddingRight="16dp"
+                android:background="@null"/>
+    </LinearLayout>
+
+
+    <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#ebebeb"/>
+
+    <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:text="Password"/>
+        <EditText
+                android:id="@+id/et_write_pwd"
+                android:layout_marginLeft="16dp"
+                android:gravity="end|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:hint="@string/input_pwd"
+                android:textSize="14sp"
+                android:paddingRight="16dp"
+                android:background="@null"/>
+    </LinearLayout>
+    <Button
+            android:id="@+id/btn_login"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/login_btn"
+            android:text="Submit"/>
+</LinearLayout>

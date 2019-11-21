@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA6650</color>
+    <color name="colorPrimaryDark">#FA6650</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorText">#333333</color>
+    <color name="divider">#ebebed</color>
+    <color name="colorCCC">#cccccc</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>
